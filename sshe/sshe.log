@@ -1,0 +1,71 @@
+[INFO][2015-10-28 22:50:07,362][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1835282: startup date [Wed Oct 28 22:50:07 CST 2015]; root of context hierarchy
+[INFO][2015-10-28 22:50:07,394][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2015-10-28 22:50:07,516][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2015-10-28 22:50:07,647][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[ERROR][2015-10-28 22:50:07,745][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2015-10-28 22:50:07,826][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2015-10-28 22:50:08,031][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[INFO][2015-10-28 22:50:08,034][org.hibernate.Version]HHH000412: Hibernate Core {4.2.21.Final}
+[INFO][2015-10-28 22:50:08,035][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2015-10-28 22:50:08,036][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2015-10-28 22:50:08,245][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+[WARN][2015-10-28 22:50:08,248][org.hibernate.dialect.Oracle9Dialect]HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+[WARN][2015-10-28 22:50:08,249][org.hibernate.dialect.OracleDialect]HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+[INFO][2015-10-28 22:50:08,251][org.hibernate.engine.jdbc.internal.LobCreatorBuilder]HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[INFO][2015-10-28 22:50:08,324][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2015-10-28 22:50:08,327][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2015-10-28 22:50:08,441][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2015-10-28 22:50:08,441][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2015-10-28 22:50:08,466][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2015-10-28 22:50:08,531][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: LIS.LDUSER
+[INFO][2015-10-28 22:50:08,531][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [usercode, certifyflag, pmodifydate, loginfailcount, agentcom, password, username, comcode, maketime, claimpopedom, edorpopedom, modifydate, makedate, otherpopedom, modifyoperator, operator, validstartdate, modifytime, superpopedomflag, userdescription, email, validenddate, uwpopedom, userstate, popuwflag, crs_check_status]
+[INFO][2015-10-28 22:50:08,531][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2015-10-28 22:50:08,531][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [lduser_3, sql111020161926510, idx_lduser_2, idx_lduser_1, lduser_4]
+[INFO][2015-10-28 22:50:08,576][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2015-10-28 22:50:08,612][org.springframework.orm.hibernate4.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2015-10-28 22:50:07",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:26360997, ConnectTime:"2015-10-28 22:50:08", UseCount:2, LastActiveTime:"2015-10-28 22:50:08"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO][2015-10-28 23:05:08,299][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fddc31: startup date [Wed Oct 28 23:05:08 CST 2015]; root of context hierarchy
+[INFO][2015-10-28 23:05:08,330][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2015-10-28 23:05:08,449][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2015-10-28 23:05:08,568][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[ERROR][2015-10-28 23:05:08,659][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2015-10-28 23:05:08,752][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2015-10-28 23:05:08,973][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[INFO][2015-10-28 23:05:08,980][org.hibernate.Version]HHH000412: Hibernate Core {4.2.21.Final}
+[INFO][2015-10-28 23:05:08,983][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2015-10-28 23:05:08,984][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2015-10-28 23:05:09,349][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+[WARN][2015-10-28 23:05:09,352][org.hibernate.dialect.Oracle9Dialect]HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+[WARN][2015-10-28 23:05:09,353][org.hibernate.dialect.OracleDialect]HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+[INFO][2015-10-28 23:05:09,471][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2015-10-28 23:05:09,474][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2015-10-28 23:05:09,582][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2015-10-28 23:05:09,582][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2015-10-28 23:05:09,606][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2015-10-28 23:05:09,749][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: LIS.LDUSER
+[INFO][2015-10-28 23:05:09,749][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [usercode, certifyflag, pmodifydate, loginfailcount, agentcom, password, username, comcode, maketime, claimpopedom, edorpopedom, modifydate, makedate, otherpopedom, modifyoperator, operator, validstartdate, modifytime, superpopedomflag, userdescription, email, validenddate, uwpopedom, userstate, popuwflag, crs_check_status]
+[INFO][2015-10-28 23:05:09,749][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2015-10-28 23:05:09,749][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [lduser_3, sql111020161926510, idx_lduser_2, idx_lduser_1, lduser_4]
+[INFO][2015-10-28 23:05:09,804][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2015-10-28 23:05:09,839][org.springframework.orm.hibernate4.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2015-10-28 23:05:08",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:13064693, ConnectTime:"2015-10-28 23:05:09", UseCount:2, LastActiveTime:"2015-10-28 23:05:09"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager

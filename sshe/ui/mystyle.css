@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+*{
+	font-family:"微软雅黑";
+	font-size:13px;
+	margin: 0 5px;
+	padding: 2px 0px;
+}
+.a{
+	width: 65px;
+}
